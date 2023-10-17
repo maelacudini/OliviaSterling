@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 50vh;
+}
+
+.about {
+  p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .gray {
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}

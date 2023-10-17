@@ -1,0 +1,42 @@
+.offcanvas {
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+
+  .offcanvaslink {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+  }
+
+  h1,
+  .close {
+    color: rgb(0, 0, 0) !important;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  h1:hover,
+  .close:hover {
+    color: white !important;
+    transition: 0.3s;
+  }
+}

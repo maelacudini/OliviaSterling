@@ -1,0 +1,31 @@
+.main {
+  position: relative;
+  z-index: 99;
+
+  .container {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    position: fixed;
+    gap: 5px;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+    button,
+    .menu {
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #c4c4c4;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.main {
+  margin-bottom: 25vh;
+
+  h1 {
+    margin-bottom: 10vh;
+  }
+
+  p {
+    margin-bottom: 5vh;
+  }
+
+  .roledate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+
+    img {
+      flex-grow: 1;
+      flex-basis: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      object-position: center;
+      height: auto;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  a {
+    font-size: 72px;
+  }
+}
