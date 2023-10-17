@@ -2,6 +2,7 @@ import style from "../css/about.module.scss";
 import { Link as RouterLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { about } from "../utils/animations";
+import Nav from "./Nav";
 
 export default function About() {
   return (
@@ -70,6 +71,8 @@ export default function About() {
 
         <h1>Let's Connect.</h1>
       </div>
+
+      <Nav />
     </motion.div>
   );
 }

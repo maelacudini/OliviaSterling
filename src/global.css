@@ -48,7 +48,7 @@ h1 {
 }
 
 .link {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(200, 200, 200);
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .link:hover {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(160, 160, 160);
   transition: 0.3s;
 }
 

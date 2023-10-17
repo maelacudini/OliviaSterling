@@ -6,7 +6,7 @@
   right: 0;
   bottom: 0;
   text-align: center;
-  background-color: #c4c4c4;
+  background-color: rgb(200, 200, 200);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -29,14 +29,14 @@
 
   h1,
   .close {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
     transition: 0.3s;
     cursor: pointer;
   }
 
   h1:hover,
   .close:hover {
-    color: white !important;
+    color: rgba(0, 0, 0) !important;
     transition: 0.3s;
   }
 }
