@@ -52,12 +52,10 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
   .scrolldown {
-    display: block;
-
-    p {
-      padding-bottom: 20px;
+    small {
+      display: none;
     }
   }
 }
